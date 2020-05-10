@@ -1,0 +1,140 @@
+:root {
+  --primary-text-color: #212121;
+  --akcent-text-color: #757575;
+  --blue-text-color: #2196f3;
+}
+
+body {
+  background: #e5e5e5;
+  font-family: Roboto, sans-serif;
+  color: var(--primary-text-color);
+  font-style: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.header {
+  background: #ffffff;
+}
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--primary-text-color);
+}
+.logo-blue {
+  color: var(--blue-text-color);
+}
+.navigatoin-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.contacts-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--akcent-text-color);
+}
+.navigatoin-link:hover,
+.navigatoin-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--blue-text-color);
+}
+
+.banner-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+.banner-buy {
+  font-size: 16px;
+  line-height: 1.87;
+  background-color: var(--blue-text-color);
+  color: #ffffff;
+}
+
+.properties-link {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.properties-text {
+  line-height: 1.71;
+  color: var(--akcent-text-color);
+}
+.topic {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+}
+.worck-link {
+  background: rgba(47, 48, 58, 0.8);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.comand-name {
+  font-weight: 500;
+  line-height: 1.18;
+}
+.comand-position {
+  line-height: 1.18;
+  color: var(--akcent-text-color);
+}
+.fotter {
+  background: #2f303a;
+}
+.fotter-logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.19;
+  color: #ffffff;
+}
+
+.fotter-addres {
+  line-height: 1.71;
+  color: #ffffff;
+}
+.fotter-contacts {
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+.join {
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/* 
+.portfolio-botton {
+  font-size: 16px;
+  line-height: 1.62;
+}
+.portfolio-botton:header {
+  background: #2196f3;
+  color: #ffffff;
+}
+  */
+
+.portfolio-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-area {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--akcent-text-color);
+}
